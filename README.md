@@ -2,8 +2,10 @@
 This repository contains data and code for the Backchannel Smile Generation paper from AAAI-24 Cognitive and Mental Health workshop.
 [Paper](https://github.com/bmaneesh/Generating-Context-Sensitive-Backchannel-Smiles/)
 
-## Backchannel dataset: The `data/data.zip` contains the dataset for backchannel smile generation.
-Unzip `data/data.zip` to `data/` to run the code. `clean_data_8_context_length_60s_turns.pkl` contains the data required for the generative model in `src/LSTM_decoder.py`
+Download `data` folder contents from [here](https://pitt-my.sharepoint.com/:u:/g/personal/mab623_pitt_edu/ERN1iZ0wYeFFibAdGuKXR-sBqxdBCYklkfQ3KZi1UttHug?e=H51XdF). Unzip the downloaded content into `data`.
+
+## Backchannel dataset: The `data` contains the dataset for backchannel smile generation.
+`clean_data_8_context_length_60s_turns.pkl` contains the data required for the generative model in `src/LSTM_decoder.py`
 It contains Backchannel (BC) smile (and non-smile) annotations together with the speaker and listener turns that correspond to it. Contents of the file are described below:
 
 ### Smile-related attributes:
