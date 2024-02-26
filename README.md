@@ -1,6 +1,6 @@
 # Learning to Generate Context-Sensitive Backchannel Smiles for Embodied AI Agents with Applications in Mental Health Dialogues
 This repository contains data and code for the Backchannel Smile Generation paper from AAAI-24 Cognitive and Mental Health workshop.
-[Paper](https://github.com/bmaneesh/Generating-Context-Sensitive-Backchannel-Smiles/)
+[[Paper]](https://arxiv.org/abs/2402.08837v1)
 
 Download `data` folder contents from [here](https://pitt-my.sharepoint.com/:u:/g/personal/mab623_pitt_edu/ERN1iZ0wYeFFibAdGuKXR-sBqxdBCYklkfQ3KZi1UttHug?e=H51XdF). Unzip the downloaded content into `data`.
 
@@ -57,5 +57,10 @@ Visualizations and some code are built upon existing an [work](https://github.co
 
 Citation:
 ```
-
+@article{bilalpur2024learning,
+  title={Learning to Generate Context-Sensitive Backchannel Smiles for Embodied AI Agents with Applications in Mental Health Dialogues},
+  author={Bilalpur, Maneesh and Inan, Mert and Zeinali, Dorsa and Cohn, Jeffrey F and Alikhani, Malihe},
+  journal={Machine Learning for Cognitive and Mental Health (ML4CMH), AAAI 2024},
+  year={2024}
+}
 ```
